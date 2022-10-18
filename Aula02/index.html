@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula-02</title>
+</head>
+<body>
+    <h5>Utilizando a mesma estrutura de 3 arquivos (HTML+CSS+JS):<br>
+
+        Crie uma página web que contenha um formulário que possibilite a comparação de dois ‘números’ e após clicar no botão comparar, apareça o resultado se o primeiro número é maior, menor ou igual ao segundo número;<br>
+        Crie uma página web que possibilite a comparação do tamanho de duas ‘strings’ e após clicar no botão comparar, mostre o resultado se o tamanho da primeira string é maior, menor ou igual à segunda string.</h5>
+        <section>
+            <form >
+                <section class="firstValue">
+                    <input type="number" name="first" id="first" placeholder="Insira o primeiro valor">
+                </section>
+                <section class="secondValue">
+                    <input type="number" name="second" id="second" placeholder="Insira o segundo valor">
+                </section>
+                <button id="result">Comparar!</button>
+            </form>
+            <h1></h1>
+        </section>
+        <section>
+            <form >
+                <section class="firstString">
+                    <input type="text" name="first_string" id="first_string" placeholder="Insira um texto">
+                </section>
+                <section class="secondString">
+                    <input type="text" name="second_string" id="second_string" placeholder="Insira um texto">
+
+                </section>
+                <button id="comparative">Comparar!</button>
+            </form>
+            <h1 id="string"></h1>
+        </section>
+    <script src="index.js"></script>
+</body>
+</html>
