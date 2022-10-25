@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.intego.com/mac-security-blog/wp-content/uploads/2020/07/macos-date-time-lead.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.container{
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 20px solid #fff;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color: rgba(0, 0, 139, 0.8);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+input{
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: 3px solid #000;
+}   
+button{  
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: 3px solid #000;
+}
+h1{
+    text-align: center; 
+    color: #fff; 
+    line-height: 200%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula-03</title>
+</head>
+<body>
+        <h5>Utilizando a mesma estrutura de 3 arquivos (HTML+CSS+JS):<br>
+
+        Utilizando o conhecimento obtido na aula anterior, crie novamente três arquivos (“index.html”, “index.css” e “index.js”) e faça um formulário com dois campos e um botão que, ao ser clicado exiba, conforme o HTML select selecionado, a “soma”, “subtração”, “multiplicação” e “divisão” dos campos tanto na página web quanto no console do navegador.
+
+        Observação:
+        Elemento1: “operando1”
+        Elemento2: “operando2”
+        HTML select: “operador” com a possibilidade de selecionar “soma”, “subtração”, “multiplicação” e “divisão”
+        Botão: “calcular” ao ser clicado exibe o cálculo conforme operador selecionado.
+        O formulário deve estar bem formatado, com título e ser apresentado como um “Card” (utilize seu conhecimento de ‘flexbox’ e CSS para isso). </h5>
+        <section class="container  ">
+            <form >
+                <h2>AULA-03</h2>
+
+                <section class="firstValue">
+                    <input type="number" name="first" id="first" placeholder="Insira o primeiro valor">
+                </section>
+                <section class="html-op">
+                    <select name="htmlOpe" id="htmlOpe">
+                        <option value="nada"></option>
+                        <option value="somar" class="somar">+</option>
+                        <option value="subtrair" class="subtrair">-</option>
+                        <option value="multiplicar" class="multiplicar">*</option>
+                        <option value="dividir" class="dividir">/</option>
+                    </select>
+                </section>
+                <section class="secondValue">
+                    <input type="number" name="second" id="second" placeholder="Insira o segundo valor">
+                </section>
+ 
+
+                <button id="result">Calcular!</button>
+                <h1></h1>
+            </form>
+            
+        </section>
+    <script src="index.js"></script>
+</body>
+</html>

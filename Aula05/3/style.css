@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    background-image: url("https://www.minhatorcida.com.br/wp-content/uploads/2021/12/14615_nba-caopa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    min-height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: none;
+}
+img{
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
+}
+form{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    border: 5px solid black;
+}
+select{
+    padding: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+button{
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 5px solid black;
+}

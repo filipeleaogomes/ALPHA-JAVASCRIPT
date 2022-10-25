@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula-04</title>
+</head>
+<body>
+    <h5>Utilizando a mesma estrutura de 3 arquivos (HTML+CSS+JS):<br>
+
+    A inserção de um valor mínimo;
+    A inserção de um valor máximo;
+    Clicar em um botão de sortear que ao ser clicado, exiba um valor entre o mínimo e o máximo colocado pelo usuário;
+    Observação: verificar se os dados colocados são numéricos usando o ‘isNaN()’ e, caso não sejam numéricos, informe ao usuário que os valores inseridos não são numéricos. Verificar também se o valor mínimo é menor que o valor máximo e, caso não seja, exiba uma mensagem de erro.
+    </h5>
+        <section>
+            <form >
+                <section class="firstValue">
+                    <input type="text" name="first" id="first" placeholder="Insira o valor do seu salário">
+                </section>
+                <section class="secondValue">
+                    <input type="text" name="second" id="second" placeholder="Insira o quanto vc gostaria de ganhar">
+                </section>
+                <button id="result">Sortear</button>
+            </form>
+            <h1 id="calculo"></h1>
+        </section>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula-04</title>
+</head>
+<body>
+    <h5>Utilizando a mesma estrutura de 3 arquivos (HTML+CSS+JS):<br>
+
+        Crie uma página web que contenha um formulário que possibilite:
+        A inserção pelo usuário de um valor (input type ‘text’) de peso;
+        A inserção pelo usuário de um valor (input type ‘text’) de altura;
+        Clicar em um botão (input type ‘button’) de calcular;
+        Após clicar no botão de calcular exiba o valor do Índice de Massa Corporal calculado;
+        Informe também, após clicar no botão calcular, conforme referência desta atividade para o Índice de Massa Corporal, a classificação do IMC.
+        Observação: verificar se os dados colocados são numéricos usando o ‘isNaN()’ e, caso não sejam numéricos, informe ao usuário que os valores inseridos não são válidos.
+    </h5>
+        <section>
+            <form >
+                <section class="firstValue">
+                    <input type="text" name="first" id="first" placeholder="Insira seu Peso">
+                </section>
+                <section class="secondValue">
+                    <input type="text" name="second" id="second" placeholder="Insira sua Altura">
+                </section>
+                <button id="result">Calcular!</button>
+            </form>
+            <h1 id="calculo"></h1>
+        </section>
+    <script src="index.js"></script>
+</body>
+</html>
