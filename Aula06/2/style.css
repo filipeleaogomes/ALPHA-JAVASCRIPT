@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.container{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    box-shadow: 9px 9px 9px black;
+    gap:20px;
+    background-color: lightgoldenrodyellow;
+}
+input{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
